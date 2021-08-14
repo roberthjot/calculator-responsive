@@ -74,7 +74,7 @@
                             <div class="button"><button type="button" name="" value="*" onclick="calcNumbers(this.value)" class="btn-work"><i class="fa fa-times"></i></button></div>
                             <div class="button"><button type="button" name="" value="-" onclick="calcNumbers(this.value)" class="btn-work"><i class="fa fa-minus"></i></button></div>
 
-                            <div class="button"><button type="button" name="" value="=" onclick="(displayResult.value.includes('%'))?percentage(displayResult.value):displayResult.value=eval(displayResult.value);" class="btn-equal">=</i></button></div>
+                            <div class="button"><button type="button" name="" value="=" onclick="(displayResult.value.includes('%'))?percentage(displayResult.value):displayResult.value=eval(displayResult.value);" class="btn-equal">=</button></div>
                         </div>
 
                         <div class="menu"><i class="fa fa-bars"></i></div>
@@ -96,9 +96,9 @@
         function percentage(result)
         {
             var result1 = String(result);
-            if(result1.includes("&"))
+            if(result1.includes("%"))
             {
-                var a, b, percent;
+                var a, b , percent;
                 var splitWord = [];
                 a = Number(splitWord[0]);
                 b = Number(splitWord[1]);

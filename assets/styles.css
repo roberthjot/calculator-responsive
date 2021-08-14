@@ -409,8 +409,7 @@ button:hover{
         min-height: 10px !important;
         padding: 4px;
     }
-    .fi
-rst-col, .second-col, .third-col, .fourth-col, .fifth-col {
+    .first-col, .second-col, .third-col, .fourth-col, .fifth-col {
         margin-top: 10px !important;
     }
     .button{
